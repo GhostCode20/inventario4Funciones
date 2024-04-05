@@ -44,7 +44,18 @@ public class Vista extends javax.swing.JFrame {
                                         inventario[i].getCantidad()
             });                           
         }
+
+      public void redimensionar(int x){
     
+        equipo[] aux = new equipo[inventario.length+x];
+        
+        if (x==1) {
+            for (int i = 0; i < inventario.length; i++) {
+                aux[i]=inventario[i];
+            }
+        }
+    }
+          
     }
     
     public void limpiar(){
