@@ -278,6 +278,12 @@ public class Vista extends javax.swing.JFrame {
         limpiar();
     }//GEN-LAST:event_btnagregarMouseClicked
 
+      
+    private void btneliminarMouseClicked(java.awt.event.MouseEvent evt) {                                         
+       modelo.removeRow(tblinventario.getSelectedRow());
+    }
+
+      
     private void txtdescripcionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtdescripcionActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtdescripcionActionPerformed
