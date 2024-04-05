@@ -53,6 +53,7 @@ public class Vista extends javax.swing.JFrame {
             for (int i = 0; i < inventario.length; i++) {
                 aux[i]=inventario[i];
             }
+            inventario = aux;
         }
     }
           
